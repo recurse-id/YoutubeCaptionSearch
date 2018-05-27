@@ -1,0 +1,15 @@
+  {
+    "name": "youtube video search",
+    "version": "1.0",
+    "description": "Search for text in youtube video",
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    },
+     "permissions": ["*://*.youtube.com/*", "storage", "declarativeContent", "activeTab"],
+     "page_action": {
+      "default_popup": "popup.html"
+  },
+
+    "manifest_version": 2
+  }
